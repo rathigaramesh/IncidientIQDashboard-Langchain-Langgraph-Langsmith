@@ -1,0 +1,42 @@
+[
+  {
+    "symptom": "Database connection error",
+    "resolution": "Verify database service status. If stopped, restart the service. Check network connectivity between the application server and database host. Review database logs for authentication or configuration errors."
+  },
+  {
+    "symptom": "High CPU usage on application server",
+    "resolution": "Identify top CPU-consuming processes using system monitoring tools. Restart or reconfigure runaway processes. If load is legitimate, consider scaling resources or load balancing."
+  },
+  {
+    "symptom": "Disk space critically low",
+    "resolution": "Clear temporary files and logs older than 30 days. Move large archival data to external storage. If space issues persist, plan for disk expansion."
+  },
+  {
+    "symptom": "Web application returning 500 Internal Server Error",
+    "resolution": "Check application logs for stack traces or unhandled exceptions. Restart the application service. If recent code changes were deployed, roll back and retest."
+  },
+  {
+    "symptom": "Email delivery failures",
+    "resolution": "Verify SMTP service status and configuration. Check DNS MX records. Review mail server logs for spam filter rejections or authentication errors."
+  },
+  {
+    "symptom": "Slow network performance",
+    "resolution": "Run network diagnostics to identify latency or packet loss. Check for bandwidth-heavy processes. Restart network equipment if necessary."
+  },
+  {
+    "symptom": "SSL certificate expired",
+    "resolution": "Obtain a new certificate from a trusted CA. Install and configure it on the web server. Test HTTPS access to confirm resolution."
+  },
+  {
+    "symptom": "User unable to log in",
+    "resolution": "Verify username and password. Check account status in the directory service. Reset password if required and ensure authentication services are operational."
+  },
+  {
+    "symptom": "Application crash after update",
+    "resolution": "Review application logs for errors introduced by the update. Roll back to the previous stable version. Test in staging before redeploying."
+  },
+  {
+    "symptom": "Backup job failed",
+    "resolution": "Check backup logs for error codes. Verify destination storage availability and permissions. Restart the backup job after resolving issues."
+  }
+]

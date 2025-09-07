@@ -1,0 +1,9 @@
+streamlit
+langchain
+langchain-community
+langgraph
+langsmith
+faiss-cpu
+openai
+langchain_ollama
+
